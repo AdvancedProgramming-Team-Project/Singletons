@@ -36,4 +36,8 @@ public class Sung extends Player implements Fieldclean {
 		skill_act = true;
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'master' of https://github.com/AdvancedProgramming-Team-Project/Singletons.git

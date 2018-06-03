@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+public abstract class Player implements Move, Collision, Jump, Die {
+    private static int MAX_HP;
+    private static int MAX_SPEED;
+    private static int P_WIDTH;
+    private static int count;
+    private int hp;
+    private Item it;
+    private boolean exist;
+    public int count;
+    private int p_angle;
+
+    public void skill(){
+    }
+=======
 import java.math.*;
 
 public abstract class Player extends Thread implements Move, Collision, Jump, Die {
@@ -96,5 +111,6 @@ public abstract class Player extends Thread implements Move, Collision, Jump, Di
 		super.run();
 	}
 
+>>>>>>> branch 'master' of https://github.com/AdvancedProgramming-Team-Project/Singletons.git
 
 }
